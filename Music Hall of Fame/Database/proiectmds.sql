@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 14, 2020 at 06:24 PM
+-- Generation Time: May 14, 2020 at 07:01 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.3.7
 
@@ -195,55 +195,55 @@ CREATE TABLE `song` (
 --
 
 INSERT INTO `song` (`sid`, `stitle`, `aname`, `albid`, `year`, `link`, `count`) VALUES
-(1, 'Sweet but Psycho', 'Ava Max', 1, 2018, 'Muzica/Ava Max - Sweet but Psycho.mp3', 11),
-(2, 'bad guy', 'Billie Eilish', 2, 2019, 'Muzica/bad guy (Audio) - Billie Eilish.mp3', 0),
-(3, 'Black Swan', 'BTS', 3, 2020, 'Muzica/Black Swan - BTS.mp3', 10),
-(4, 'Kill This Love', 'BLACKPINK', 4, 2019, 'Muzica/BLACKPINK - Kill This Love.mp3', 5),
-(5, 'Blood Sweat & Tears', 'BTS', 5, 2016, 'Muzica/BTS - Blood Sweat & Tears.mp3', 20),
-(6, 'Not Today', 'BTS', 6, 2017, 'Muzica/BTS - Not Today.mp3', 0),
-(7, 'Obsession', 'EXO', 7, 2019, 'Muzica/EXO Obsession.mp3', 0),
-(8, 'Natural', 'Imagine Dragons', 8, 2018, 'Muzica/Imagine Dragons - Natural.mp3', 9),
-(9, 'Intro: Boy Meets Evil', 'BTS', 5, 2016, 'Muzica/Intro Boy Meets Evil - j-hope & Jungkook (BTS).mp3', 0),
-(10, 'Lie', 'BTS', 5, 2016, 'Muzica/Lie - Jimin (BTS).mp3', 11),
-(11, 'Love Shot', 'EXO', 9, 2018, 'Muzica/Love Shot - EXO.mp3', 21),
-(12, 'ON', 'BTS', 3, 2020, 'Muzica/ON - BTS.mp3', 30),
-(13, 'River', 'Bishop Briggs', 10, 2016, 'Muzica/River - Bishop Briggs.mp3', 4),
-(14, 'Fake Love', 'BTS', 11, 2018, 'Muzica/BTS - FAKE LOVE.mp3', 0),
-(15, 'IDOL', 'BTS', 11, 2018, 'Muzica/BTS - IDOL Feat. Nicki Minaj.mp3', 17),
-(16, 'Sanctify', 'Years & Years', 12, 2018, 'Muzica/Sanctify - Years & Years.mp3', 0),
-(17, 'Tear You Apart', 'She Wants Revenge', 13, 2006, 'Muzica/She Wants Revenge - Tear You Apart.mp3', 0),
-(18, 'Lunisolar', 'Shaun', 14, 2019, 'Muzica/Shaun - Lunisolar.mp3', 0),
-(19, 'Everything Black', 'Unlike Pluto', 15, 2017, 'Muzica/Unlike Pluto - Everything Black.mp3', 7),
-(20, 'Cause Disarray', 'Galneryus', 16, 2008, 'Muzica/Cause Disarray - Galneryus.mp3', 5),
-(21, 'Alsatia', 'Galneryus', 16, 2008, 'Muzica/Cause Disarray - Galneryus.mp3', 3),
-(22, 'As We Fall', 'League of Legends', 17, 2019, 'Muzica/As We Fall - League of Legends.mp3', 12),
-(23, 'Awaken', 'League of Legends', 17, 2019, 'Muzica/Awaken - League of Legends.mp3', 11),
-(24, 'Legends Never Die', 'League of Legends', 17, 2018, 'Muzica/Legends Never Die - League of Legends.mp3', 21),
-(25, 'Light & Shadow', 'League of Legends', 17, 2019, 'Muzica/Light & Shadow - League of Legends.mp3', 10),
-(26, 'RISE', 'League of Legends', 17, 2020, 'Muzica/RISE - League of Legends.mp3', 4),
-(27, 'Enjoy The Silence', 'Lacuna Coil', 18, 2015, 'Muzica/Enjoy The Silence - Lacuna Coil.mp3', 13),
-(28, 'Bring Me To Life', 'Evanescence', 19, 2003, 'Muzica/Evanescence - Bring Me To Life.mp3', 25),
-(29, 'Going Under', 'Evanescence', 19, 2003, 'Muzica/Going Under - Evanescence.mp3', 6),
-(30, 'Imaginary', 'Evanescence', 20, 2000, 'Muzica/Imaginary - Evanescence.mp3', 0),
-(31, 'MANIFEST', 'Starset', 21, 2019, 'Muzica/MANIFEST - Starset.mp3', 24),
-(32, 'Antigravity', 'Starset', 21, 2019, 'Muzica/Starset - Antigravity.mp3', 0),
-(33, 'It Has Begun', 'Starset', 21, 2019, 'Muzica/Starset - It Has Begun.mp3', 17),
-(34, 'Last To Fall', 'Starset', 21, 2019, 'Muzica/Starset - Last To Fall.mp3', 10),
-(35, 'PERFECT MACHINE', 'Starset', 21, 2019, 'Muzica/STARSET - PERFECT MACHINE.mp3', 0),
-(36, 'Point of No Return', 'Starset', 21, 2019, 'Muzica/Starset - Point of No Return.mp3', 0),
-(37, 'Telepathic', 'Starset', 21, 2019, 'Muzica/Starset - Telepathic.mp3', 5),
-(38, 'Telescope', 'Starset', 21, 2019, 'Muzica/Starset - Telescope.mp3', 0),
-(39, 'WHERE THE SKIES END', 'Starset', 21, 2019, 'Muzica/WHERE THE SKIES END - Starset.mp3', 0),
-(40, 'Grace Kelly', 'MIKA', 22, 2007, 'Muzica/MIKA - Grace Kelly.mp3', 18),
-(41, 'Relax, Take It Easy ', 'MIKA', 22, 2007, 'Muzica/MIKA - Relax, Take It Easy .mp3', 19),
-(42, 'Waiting On the Sky to Change', 'Downplay', 23, 2020, 'Muzica/Waiting On the Sky to Change - Downplay.mp3', 0),
-(43, 'Puddle Of Mudd', 'Blurry', 24, 2001, 'Muzica/Puddle Of Mudd - Blurry.mp3', 0),
-(44, 'Perfect Words', 'Steve Cash', 25, 2002, 'Muzica/Perfect Words - Steve Cash.mp3', 0),
-(45, 'Apologize', 'OneRepublic', 26, 2006, 'Muzica/OneRepublic - Apologize.mp3', 20),
-(46, 'Start Again', 'OneRepublic', 26, 2006, 'Muzica/OneRepublic - Start Again.mp3', 0),
-(47, 'All The Little Lights', 'Passenger', 27, 2012, 'Muzica/Passenger - All The Little Lights.mp3', 0),
-(48, 'Simple Song', 'Passenger', 27, 2012, 'Muzica/Passenger - Simple Song.mp3', 0),
-(49, 'The Wrong Direction ', 'Passenger', 27, 2012, 'Muzica/Passenger - The Wrong Direction .mp3', 0);
+(1, 'Sweet but Psycho', 'Ava Max', 1, 2018, '../Muzica/Ava Max - Sweet but Psycho.mp3', 11),
+(2, 'bad guy', 'Billie Eilish', 2, 2019, '../Muzica/bad guy (Audio) - Billie Eilish.mp3', 0),
+(3, 'Black Swan', 'BTS', 3, 2020, '../Muzica/Black Swan - BTS.mp3', 10),
+(4, 'Kill This Love', 'BLACKPINK', 4, 2019, '../Muzica/BLACKPINK - Kill This Love.mp3', 5),
+(5, 'Blood Sweat & Tears', 'BTS', 5, 2016, '../Muzica/BTS - Blood Sweat & Tears.mp3', 20),
+(6, 'Not Today', 'BTS', 6, 2017, '../Muzica/BTS - Not Today.mp3', 0),
+(7, 'Obsession', 'EXO', 7, 2019, '../Muzica/EXO Obsession.mp3', 0),
+(8, 'Natural', 'Imagine Dragons', 8, 2018, '../Muzica/Imagine Dragons - Natural.mp3', 9),
+(9, 'Intro: Boy Meets Evil', 'BTS', 5, 2016, '../Muzica/Intro Boy Meets Evil - j-hope & Jungkook (BTS).mp3', 0),
+(10, 'Lie', 'BTS', 5, 2016, '../Muzica/Lie - Jimin (BTS).mp3', 11),
+(11, 'Love Shot', 'EXO', 9, 2018, '../Muzica/Love Shot - EXO.mp3', 21),
+(12, 'ON', 'BTS', 3, 2020, '../Muzica/ON - BTS.mp3', 30),
+(13, 'River', 'Bishop Briggs', 10, 2016, '../Muzica/River - Bishop Briggs.mp3', 4),
+(14, 'Fake Love', 'BTS', 11, 2018, '../Muzica/BTS - FAKE LOVE.mp3', 0),
+(15, 'IDOL', 'BTS', 11, 2018, '../Muzica/BTS - IDOL Feat. Nicki Minaj.mp3', 19),
+(16, 'Sanctify', 'Years & Years', 12, 2018, '../Muzica/Sanctify - Years & Years.mp3', 2),
+(17, 'Tear You Apart', 'She Wants Revenge', 13, 2006, '../Muzica/She Wants Revenge - Tear You Apart.mp3', 0),
+(18, 'Lunisolar', 'Shaun', 14, 2019, '../Muzica/Shaun - Lunisolar.mp3', 0),
+(19, 'Everything Black', 'Unlike Pluto', 15, 2017, '../Muzica/Unlike Pluto - Everything Black.mp3', 7),
+(20, 'Cause Disarray', 'Galneryus', 16, 2008, '../Muzica/Cause Disarray - Galneryus.mp3', 5),
+(21, 'Alsatia', 'Galneryus', 16, 2008, '../Muzica/Cause Disarray - Galneryus.mp3', 3),
+(22, 'As We Fall', 'League of Legends', 17, 2019, '../Muzica/As We Fall - League of Legends.mp3', 12),
+(23, 'Awaken', 'League of Legends', 17, 2019, '../Muzica/Awaken - League of Legends.mp3', 11),
+(24, 'Legends Never Die', 'League of Legends', 17, 2018, '../Muzica/Legends Never Die - League of Legends.mp3', 21),
+(25, 'Light & Shadow', 'League of Legends', 17, 2019, '../Muzica/Light & Shadow - League of Legends.mp3', 10),
+(26, 'RISE', 'League of Legends', 17, 2020, '../Muzica/RISE - League of Legends.mp3', 4),
+(27, 'Enjoy The Silence', 'Lacuna Coil', 18, 2015, '../Muzica/Enjoy The Silence - Lacuna Coil.mp3', 13),
+(28, 'Bring Me To Life', 'Evanescence', 19, 2003, '../Muzica/Evanescence - Bring Me To Life.mp3', 25),
+(29, 'Going Under', 'Evanescence', 19, 2003, '../Muzica/Going Under - Evanescence.mp3', 6),
+(30, 'Imaginary', 'Evanescence', 20, 2000, '../Muzica/Imaginary - Evanescence.mp3', 0),
+(31, 'MANIFEST', 'Starset', 21, 2019, '../Muzica/MANIFEST - Starset.mp3', 24),
+(32, 'Antigravity', 'Starset', 21, 2019, '../Muzica/Starset - Antigravity.mp3', 0),
+(33, 'It Has Begun', 'Starset', 21, 2019, '../Muzica/Starset - It Has Begun.mp3', 18),
+(34, 'Last To Fall', 'Starset', 21, 2019, '../Muzica/Starset - Last To Fall.mp3', 10),
+(35, 'PERFECT MACHINE', 'Starset', 21, 2019, '../Muzica/STARSET - PERFECT MACHINE.mp3', 0),
+(36, 'Point of No Return', 'Starset', 21, 2019, '../Muzica/Starset - Point of No Return.mp3', 0),
+(37, 'Telepathic', 'Starset', 21, 2019, '../Muzica/Starset - Telepathic.mp3', 5),
+(38, 'Telescope', 'Starset', 21, 2019, '../Muzica/Starset - Telescope.mp3', 0),
+(39, 'WHERE THE SKIES END', 'Starset', 21, 2019, '../Muzica/WHERE THE SKIES END - Starset.mp3', 0),
+(40, 'Grace Kelly', 'MIKA', 22, 2007, '../Muzica/MIKA - Grace Kelly.mp3', 18),
+(41, 'Relax, Take It Easy ', 'MIKA', 22, 2007, '../Muzica/MIKA - Relax, Take It Easy .mp3', 19),
+(42, 'Waiting On the Sky to Change', 'Downplay', 23, 2020, '../Muzica/Waiting On the Sky to Change - Downplay.mp3', 0),
+(43, 'Puddle Of Mudd', 'Blurry', 24, 2001, '../Muzica/Puddle Of Mudd - Blurry.mp3', 0),
+(44, 'Perfect Words', 'Steve Cash', 25, 2002, '../Muzica/Perfect Words - Steve Cash.mp3', 0),
+(45, 'Apologize', 'OneRepublic', 26, 2006, '../Muzica/OneRepublic - Apologize.mp3', 20),
+(46, 'Start Again', 'OneRepublic', 26, 2006, '../Muzica/OneRepublic - Start Again.mp3', 0),
+(47, 'All The Little Lights', 'Passenger', 27, 2012, '../Muzica/Passenger - All The Little Lights.mp3', 0),
+(48, 'Simple Song', 'Passenger', 27, 2012, '../Muzica/Passenger - Simple Song.mp3', 0),
+(49, 'The Wrong Direction ', 'Passenger', 27, 2012, '../Muzica/Passenger - The Wrong Direction .mp3', 0);
 
 -- --------------------------------------------------------
 
@@ -327,7 +327,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `list`
 --
 ALTER TABLE `list`
-  MODIFY `lid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `lid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables

@@ -1,6 +1,18 @@
-<html>
+<!Doctype html>
+<html lang="ro">
+<head>
+<title> Music Hall of Fame </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="search">
+<link rel="stylesheet" type="text/css" href="../Css/searchByLatest.css">
+</head>
 <body>
-
+<header>
+<?php include '../menu.php';?>
+</header>
+<div class="container">
+<div class="item">
 
 <?php
 $servername = "localhost";
@@ -39,8 +51,10 @@ for($i = 0; $i < $result->num_rows; $i++)
 }
 $conn->close();
 ?>
-<form action="../dashboard.php" method="post">
-<button name="subject" type="submit" value="search">Înapoi în Pagina Principală</button>
+<form action="dashboard.php" method="post">
+<button name="subject" type="submit" value="search" class="button2">Înapoi la Pagina Principală</button>
 </form>
+</div>
+</div>
 </body>
 </html>
